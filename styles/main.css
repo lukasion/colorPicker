@@ -24,3 +24,36 @@ footer {
     margin-top: 15px;
     font-size: 13px;
 }
+
+.result {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.result__content {
+    width: 300px;
+    background-color: #eee;
+    border: 3px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.result__header {
+    margin-bottom: 10px;
+}
+
+.result__content span {
+    padding: 15px;
+    flex: 1;
+    border: 3px solid #fff;
+}
+
+.result__content span:not(:first-child) {
+    border-top: 3px solid #fff;
+}
+
+.result__container {
+    width: 300px;
+}
