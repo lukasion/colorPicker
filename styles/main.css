@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+}
+
+.container {
+    width: 960px;
+    background-color: white;
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    margin: auto;
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
