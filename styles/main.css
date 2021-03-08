@@ -2,16 +2,18 @@ body {
     font-family: Arial;
     margin: 0;
     padding: 0;
-    background-color: #ececec;
+    background-color: #fafafa;
 }
 
 .container {
     width: 960px;
     background-color: white;
     padding: 15px 25px;
-    border: 1px solid #ddd;
+    border: 1px solid #efefef;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 10%);
     margin: auto;
     margin-top: 15px;
+    border-radius: 5px;
 }
 
 h2 {
