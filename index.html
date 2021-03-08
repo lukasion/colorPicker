@@ -36,6 +36,7 @@
                 console.log(data);
 
                 document.getElementById('hex').innerHTML = data.result_hex;
+                document.getElementById('hex').parentNode.style.backgroundColor = data.result_hex;
                 document.getElementById('rgb').innerHTML = data.result_rgb_string;
 
                 document.body.style.background = data.result_hex;
